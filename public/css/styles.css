@@ -1,0 +1,43 @@
+body {
+    background: #dae0e6 !important;
+}
+
+.publicacion .cabecera {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.publicacion .cabecera .cabecera-titulo {
+    color: #979a9c;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+.publicacion .contenido .contenido-titulo {
+    font-weight: 600;
+    font-size: 1.2rem;
+    color: #444444;
+}
+
+.publicacion .contenido .contenido-parrafo {
+    font-size: .9rem;
+    color: #333333;
+}
+
+.publicacion .pie .comentarios a {
+    color: #878a8c;
+    font-weight: 600;
+    font-size: .7rem;
+}
+
+.publicacion .comentarios .comentario-user {
+    color: #444444;
+    font-weight: 600;
+    font-size: .8rem;
+}
+
+.publicacion .comentarios .comentario {
+    color: #333333;
+    font-size: .8rem;
+}

@@ -1,0 +1,63 @@
+.margen-superior {
+    margin-top: 7%;
+}
+
+.margen-superior-registro {
+    margin-top: 3%;
+}
+
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo .titulo {
+    font-weight: 700;
+    margin-left: 10px;
+}
+
+.bienvenida {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.bienvenida .titulo_bienvenida {
+    color: #407ccf;
+    font-weight: 700;
+    font-size: 1.9rem;
+}
+
+.bienvenida .parrafo_bienvenida {
+    font-size: 1rem;
+    color: #444444;
+}
+
+.formulario {
+    padding: 20px 100px;
+}
+
+.caja-boton {
+    margin-top: 20px;
+}
+
+.caja-boton .boton {
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.registro {
+    text-align: center;
+}
+
+.registro .registrarme a {
+    font-weight: 600;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .formulario {
+        padding: 20px 40px;
+    }
+}
