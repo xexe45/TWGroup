@@ -36,6 +36,12 @@ Instalar el paquete guzzlehttp con el comando:
 composer require guzzlehttp/guzzle
 ```
 
+Generamos un nuevo Mailable
+
+```
+php artisan make:mail OrderShipped
+```
+
 Configurar las variables de entorno que encontraremos en el archivo .env,
 <ol>
 <li>MAIL_MAILER (Protocolo a utilizar)</li>
